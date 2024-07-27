@@ -1,1 +1,7 @@
-# haystack_elasticsearch_ragbot
+# RAG using Haystack and Elasticsearch
+
+## Goal 
+
+## Installation 
+
+
