@@ -33,7 +33,7 @@ preprocessor = PreProcessor(
 )
 
 # Convert PDF files to text
-pdf_file_paths = ["ElasticsearchPDF.pdf"]  # Update with your PDF file paths
+pdf_file_paths = ["data/ElasticsearchPDF.pdf"]  # Update with your PDF file paths
 documents = []
 
 for path in pdf_file_paths:
