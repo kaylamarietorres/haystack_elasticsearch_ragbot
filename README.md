@@ -3,7 +3,7 @@ Retrieval Augmented Generation (RAG) is an approach that combines both retrieval
 
 ![Architecture](img/architecture2.png)
 ## Goal
-Implement a search system that allows users to quickly find information within a knowledge base. This is helpful for large volumes of local text data to work with in order to find more centered, targeted answers. For example, a collection of books, documents, and (potentially in the future) videos that you want to be able to interact with using a chatbot.
+Implement a search system that allows users to quickly find keyword information within a knowledge base. This is helpful for large volumes of local text data to work with in order to find more centered, targeted keywords. 
 
 ![App Page](img/app_page.png)
 ## Installation 
@@ -60,3 +60,5 @@ Docker is a platform for developing, shipping, and running applications. It allo
 
 # Future Considerations
 Kibana is used for data visualization and it works well with elasticsearch. It allows users to create dashbords and perform data exploration. I could see it being used in the future with this app or similar ones. 
+
+In the future this project could be built upon by using Retrieval Augmented Generation (RAG), which combines retrieval mechanisms with generative models like Large Language Models (LLMs). RAG works by first retrieving relevant documents and then generating a response based on the retrieved information using a generative model, which is helpful for contextual understanding and semantic relevance. Since the retrieval part is already provided here, you just need to add a generative model.
