@@ -29,7 +29,14 @@ docker run -d -p 8501:8501 --name streamlit-app --network mynetwork -e ELASTIC_P
 ```
 See app on localhost:8501
 
-# Tools
+# How to use
+1. Upload a PDF
+2. Click "Proces PDF"
+3. You should see "PDF processed and indexed successfully!" if done correctly
+4. Enter search query
+5. See results
+
+# How it works
 
 ## [Haystack](https://haystack.deepset.ai/overview/intro) 
 Haystack by Deepset is an open-source framework for building production-ready *LLM applications*, RAG *pipelines* and *state-of-the-art search systems* that work intelligently over large document collections. It lets you quickly try out the latest AI models while being flexible and easy to use.
