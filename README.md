@@ -5,6 +5,7 @@ Retrieval Augmented Generation (RAG) is an approach that combines both retrieval
 ## Goal
 Implement a search system that allows users to quickly find information within a knowledge base. This is helpful for large volumes of local text data to work with in order to find more centered, targeted answers. For example, a collection of books, documents, and (potentially in the future) videos that you want to be able to interact with using a chatbot.
 
+![App Page](img/app_page.png)
 ## Installation 
 Run these commands to install and run this app
 ```
