@@ -1,7 +1,7 @@
 # Knowledge Base Search
 Retrieval Augmented Generation (RAG) is an approach that combines both retrieval and generation techniques in AI language processing models
 
-![Architecture](img/architecture.png)
+![Architecture](img/architecture2.png)
 ## Goal
 Implement a search system that allows users to quickly find information within a knowledge base. This is helpful for large volumes of local text data to work with in order to find more centered, targeted answers. For example, a collection of books, documents, and (potentially in the future) videos that you want to be able to interact with using a chatbot.
 
@@ -51,3 +51,4 @@ We have a lot of options in python for deploying our model. Some popular framewo
 Docker is a platform for developing, shipping, and running applications. It allows you to separate your applications from your infrastructure in order to deliver software quickly. In my opinion, it is one of the most important tools in software engineering. 
 
 # Future Considerations
+Kibana is used for data visualization and it works well with elasticsearch. It allows users to create dashbords and perform data exploration. I could see it being used in the future with this app or similar ones. 
